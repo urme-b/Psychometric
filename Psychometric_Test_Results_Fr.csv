@@ -1,0 +1,89 @@
+data:text/csv;charset=utf-8,Test,Question,Answer,Score,Time(s),Question Start Time,Answer Time
+HADS,1. Je me sens tendu ou énervé,1 - de temps en temps,1,1.798,2025-02-24T21:19:55.051Z,2025-02-24T21:19:56.850Z
+HADS,2. Je prends plaisir aux mêmes choses qu’autrefois,1 - pas autant,1,1.118,2025-02-24T21:19:56.850Z,2025-02-24T21:19:57.968Z
+HADS,3. J’ai une sensation de peur comme si quelque chose d’horrible allait m’arriver,1 - un peu; mais cela ne m’inquiète pas,1,1.113,2025-02-24T21:19:57.968Z,2025-02-24T21:19:59.081Z
+HADS,4. Je ris facilement et vois le bon côté des choses,1 - pas autant qu'avant,1,1.1,2025-02-24T21:19:59.081Z,2025-02-24T21:20:00.181Z
+HADS,5. Je me fais du souci,2 - Assez souvent,2,1.171,2025-02-24T21:20:00.181Z,2025-02-24T21:20:01.352Z
+HADS,6. Je suis de bonne humeur,1 - Assez souvent,1,1.096,2025-02-24T21:20:01.352Z,2025-02-24T21:20:02.448Z
+HADS,7. Je peux rester tranquillement assis(e) à ne rien faire et me sentir décontracté(e),0 - Oui; quoi qu’il arrive,0,1.267,2025-02-24T21:20:02.448Z,2025-02-24T21:20:03.715Z
+HADS,8. J’ai l’impression de fonctionner au ralenti,2 - Très souvent,2,1.167,2025-02-24T21:20:03.715Z,2025-02-24T21:20:04.882Z
+HADS,9. J’éprouve des sensations de peur et j’ai l’estomac noué,2 - Assez souvent,2,1.152,2025-02-24T21:20:04.882Z,2025-02-24T21:20:06.034Z
+HADS,10. Je ne m’intéresse plus à mon apparence,2 - Je n’y accorde pas autant d’attention que je devrais,2,1.334,2025-02-24T21:20:06.034Z,2025-02-24T21:20:07.368Z
+HADS,11. J’ai la bougeotte et n’arrive pas à tenir en place,1 - Pas tellement,1,1.6,2025-02-24T21:20:07.368Z,2025-02-24T21:20:08.968Z
+HADS,12. Je me réjouis d’avance à l’idée de faire certaines choses,1 - Un peu moins qu’avant,1,1.099,2025-02-24T21:20:08.968Z,2025-02-24T21:20:10.067Z
+HADS,13. J’éprouve des sensations soudaines de panique,2 - Assez souvent,2,1.217,2025-02-24T21:20:10.067Z,2025-02-24T21:20:11.284Z
+HADS,14. Je peux prendre plaisir à un bon livre ou à une bonne émission de radio ou de télévision,1 - Parfois,1,1.397,2025-02-24T21:20:11.284Z,2025-02-24T21:20:12.681Z
+STAI-S,1. Je me sens calme.,Un peu,2,1.167,2025-02-24T21:20:12.682Z,2025-02-24T21:20:13.849Z
+STAI-S,2. Je me sens en sécurité.,Un peu,2,1.35,2025-02-24T21:20:13.849Z,2025-02-24T21:20:15.199Z
+STAI-S,3. Je suis tendu(e).,Modérément,2,1.949,2025-02-24T21:20:15.199Z,2025-02-24T21:20:17.148Z
+STAI-S,4. Je me sens surmené(e).,Modérément,2,1.386,2025-02-24T21:20:17.148Z,2025-02-24T21:20:18.534Z
+STAI-S,5. Je me sens tranquille.,Un peu,2,1.234,2025-02-24T21:20:18.534Z,2025-02-24T21:20:19.769Z
+STAI-S,6. Je me sens ému(e).,Un peu,3,1.112,2025-02-24T21:20:19.769Z,2025-02-24T21:20:20.881Z
+STAI-S,7. Je m'inquiète à l'idée de malheurs possibles.,Modérément,2,1.133,2025-02-24T21:20:20.881Z,2025-02-24T21:20:22.014Z
+STAI-S,8. Je me sens comblé(e).,Un peu,2,2.055,2025-02-24T21:20:22.014Z,2025-02-24T21:20:24.069Z
+STAI-S,9. Je me sens effrayé(e).,Modérément,2,1.596,2025-02-24T21:20:24.069Z,2025-02-24T21:20:25.665Z
+STAI-S,10. Je me sens bien à l’aise.,Un peu,2,1.751,2025-02-24T21:20:25.665Z,2025-02-24T21:20:27.416Z
+STAI-S,11. Je me sens sûr(e) de moi.,Modérément,3,1.366,2025-02-24T21:20:27.416Z,2025-02-24T21:20:28.782Z
+STAI-S,12. Je me sens nerveux(e).,Pas du tout,4,1.701,2025-02-24T21:20:28.782Z,2025-02-24T21:20:30.483Z
+STAI-S,13. Je suis agité(e).,Pas du tout,4,1.133,2025-02-24T21:20:30.483Z,2025-02-24T21:20:31.616Z
+STAI-S,14. Je me sens indécis(e).,Beaucoup,1,0.966,2025-02-24T21:20:31.616Z,2025-02-24T21:20:32.582Z
+STAI-S,15. Je suis détendu(e).,Pas du tout,1,1.166,2025-02-24T21:20:32.582Z,2025-02-24T21:20:33.748Z
+STAI-S,16. Je me sens satisfait(e).,Un peu,2,1.233,2025-02-24T21:20:33.748Z,2025-02-24T21:20:34.981Z
+STAI-S,17. Je suis inquiet(e).,Pas du tout,4,2.087,2025-02-24T21:20:34.981Z,2025-02-24T21:20:37.068Z
+STAI-S,18. Je me sens troublé(e).,Un peu,3,2.564,2025-02-24T21:20:37.068Z,2025-02-24T21:20:39.632Z
+STAI-S,19. Je sens que j’ai les nerfs solides.,Pas du tout,1,1.548,2025-02-24T21:20:39.633Z,2025-02-24T21:20:41.181Z
+STAI-S,20. Je me sens dans de bonnes dispositions.,Un peu,2,1.234,2025-02-24T21:20:41.181Z,2025-02-24T21:20:42.416Z
+STAI-T,1. Je me sens dans de bonnes dispositions.,Presque jamais,1,1.35,2025-02-24T21:20:42.416Z,2025-02-24T21:20:43.766Z
+STAI-T,2. Je me sens nerveux(se) et agité(e).,Parfois,3,1.249,2025-02-24T21:20:43.766Z,2025-02-24T21:20:45.015Z
+STAI-T,3. Je me sens content(e) de moi-même.,Presque jamais,4,1.351,2025-02-24T21:20:45.015Z,2025-02-24T21:20:46.366Z
+STAI-T,4. Je voudrais être aussi heureux(se) que les autres semblent l'être.,Parfois,3,1.248,2025-02-24T21:20:46.366Z,2025-02-24T21:20:47.614Z
+STAI-T,5. J'ai l'impression d'être un(e) raté(e).,Presque jamais,4,1.833,2025-02-24T21:20:47.614Z,2025-02-24T21:20:49.447Z
+STAI-T,6. Je me sens reposé(e).,Parfois,3,1.321,2025-02-24T21:20:49.447Z,2025-02-24T21:20:50.768Z
+STAI-T,7. Je suis d'un grand calme.,Presque jamais,4,1.213,2025-02-24T21:20:50.768Z,2025-02-24T21:20:51.981Z
+STAI-T,8. Je sens que les difficultés s'accumulent au point où je n'arrive pas à les surmonter.,Parfois,3,1.954,2025-02-24T21:20:51.981Z,2025-02-24T21:20:53.935Z
+STAI-T,9. Je m'en fais trop pour des choses qui n'en valent pas vraiment la peine.,Presque jamais,4,1.247,2025-02-24T21:20:53.935Z,2025-02-24T21:20:55.182Z
+STAI-T,10. Je suis heureux(se).,Souvent,2,1.284,2025-02-24T21:20:55.182Z,2025-02-24T21:20:56.466Z
+STAI-T,11. J'ai des pensées troublantes.,Presque toujours,1,1.114,2025-02-24T21:20:56.466Z,2025-02-24T21:20:57.580Z
+STAI-T,12. Je manque de confiance en moi.,Presque jamais,4,1.501,2025-02-24T21:20:57.580Z,2025-02-24T21:20:59.081Z
+STAI-T,13. Je me sens en sécurité.,Parfois,3,1.287,2025-02-24T21:20:59.081Z,2025-02-24T21:21:00.368Z
+STAI-T,14. Prendre des décisions m'est facile.,Presque jamais,4,1.379,2025-02-24T21:21:00.368Z,2025-02-24T21:21:01.747Z
+STAI-T,15. Je sens que je ne suis pas à la hauteur de la situation.,Souvent,2,1.117,2025-02-24T21:21:01.747Z,2025-02-24T21:21:02.864Z
+STAI-T,16. Je suis satisfait(e).,Presque toujours,1,1.169,2025-02-24T21:21:02.864Z,2025-02-24T21:21:04.033Z
+STAI-T,17. Des idées sans importance me passent par la tête et me tracassent.,Presque jamais,4,1.214,2025-02-24T21:21:04.033Z,2025-02-24T21:21:05.247Z
+STAI-T,18. Je prends les déceptions tellement à cœur que je n'arrive pas à les chasser de mon esprit.,Parfois,3,1.188,2025-02-24T21:21:05.247Z,2025-02-24T21:21:06.435Z
+STAI-T,19. Je suis une personne qui a les nerfs solides.,Souvent,2,1.199,2025-02-24T21:21:06.435Z,2025-02-24T21:21:07.635Z
+STAI-T,20. Je deviens tendu(e) ou bouleversé(e) quand je songe à mes préoccupations et à mes intérêts récents.,Presque jamais,4,1.698,2025-02-24T21:21:07.635Z,2025-02-24T21:21:09.333Z
+BFI,1. Je me vois comme quelqu'un qui est réservé,N'approuve ni ne désapprouve,3,1.366,2025-02-24T21:21:09.334Z,2025-02-24T21:21:10.700Z
+BFI,2. Je me vois comme quelqu'un qui fait généralement confiance aux autres,Approuve fortement,5,1.135,2025-02-24T21:21:10.700Z,2025-02-24T21:21:11.835Z
+BFI,3. Je me vois comme quelqu'un qui travaille consciencieusement,Approuve un peu,2,1.246,2025-02-24T21:21:11.835Z,2025-02-24T21:21:13.081Z
+BFI,4. Je me vois comme quelqu'un qui est 'relax'; détendu et gère bien le stress,N'approuve ni ne désapprouve,3,1.333,2025-02-24T21:21:13.081Z,2025-02-24T21:21:14.414Z
+BFI,5. Je me vois comme quelqu'un qui a une grande imagination,Approuve fortement,1,1.421,2025-02-24T21:21:14.414Z,2025-02-24T21:21:15.835Z
+BFI,6. Je me vois comme quelqu'un qui est sociable; extraverti,Approuve un peu,4,1.465,2025-02-24T21:21:15.835Z,2025-02-24T21:21:17.300Z
+BFI,7. Je me vois comme quelqu'un qui a tendance à critiquer les autres,Approuve fortement,1,1.714,2025-02-24T21:21:17.300Z,2025-02-24T21:21:19.014Z
+BFI,8. Je me vois comme quelqu'un qui a tendance à être paresseux,N'approuve ni ne désapprouve,3,1.554,2025-02-24T21:21:19.014Z,2025-02-24T21:21:20.568Z
+BFI,9. Je me vois comme quelqu'un qui est facilement anxieux,Approuve fortement,1,1.366,2025-02-24T21:21:20.568Z,2025-02-24T21:21:21.934Z
+BFI,10. Je me vois comme quelqu'un qui est peu intéressé par tout ce qui est artistique,N'approuve ni ne désapprouve,3,1.348,2025-02-24T21:21:21.934Z,2025-02-24T21:21:23.282Z
+FQ,1. Principale phobie que vous voulez traiter (décrivez-la à votre façon puis cotez-la de 0 à 8).,0 - n'évite pas,0,1.552,2025-02-24T21:21:23.282Z,2025-02-24T21:21:24.834Z
+FQ,2. Injections et interventions chirurgicales minimes.,2 - évite un peu,2,1.846,2025-02-24T21:21:24.834Z,2025-02-24T21:21:26.680Z
+FQ,3. Manger et boire avec les autres.,4 - évite souvent,4,1.469,2025-02-24T21:21:26.680Z,2025-02-24T21:21:28.149Z
+FQ,4. Aller dans les hôpitaux.,0 - n'évite pas,0,1.383,2025-02-24T21:21:28.149Z,2025-02-24T21:21:29.533Z
+FQ,5. Faire seul(e) des trajets en bus ou en car.,0 - n'évite pas,0,1.982,2025-02-24T21:21:29.533Z,2025-02-24T21:21:31.515Z
+FQ,6. Se promener seul(e) dans des rues où il y a foule.,4 - évite souvent,4,1.551,2025-02-24T21:21:31.515Z,2025-02-24T21:21:33.066Z
+FQ,7. Être regardé(e) ou dévisagé(e).,2 - évite un peu,2,1.347,2025-02-24T21:21:33.066Z,2025-02-24T21:21:34.414Z
+FQ,8. Aller dans des magasins remplis de monde.,0 - n'évite pas,0,1.6,2025-02-24T21:21:34.414Z,2025-02-24T21:21:36.014Z
+FQ,9. Parler à des supérieurs hiérarchiques ou à toute personne exerçant une autorité.,2 - évite un peu,2,1.287,2025-02-24T21:21:36.014Z,2025-02-24T21:21:37.301Z
+FQ,10. Voir du sang.,6 - évite très souvent,6,1.233,2025-02-24T21:21:37.301Z,2025-02-24T21:21:38.535Z
+FQ,11. Être critiqué(e).,3,3,2.764,2025-02-24T21:21:38.535Z,2025-02-24T21:21:41.299Z
+FQ,12. Partir seul(e) loin de chez vous.,1,1,3.15,2025-02-24T21:21:41.299Z,2025-02-24T21:21:44.449Z
+FQ,13. Penser que vous pouvez être blessé(e) ou malade.,0 - n'évite pas,0,2.465,2025-02-24T21:21:44.449Z,2025-02-24T21:21:46.914Z
+FQ,14. Parler ou agir en public.,2 - évite un peu,2,2.487,2025-02-24T21:21:46.914Z,2025-02-24T21:21:49.401Z
+FQ,15. Les grands espaces vides.,0 - n'évite pas,0,1.813,2025-02-24T21:21:49.401Z,2025-02-24T21:21:51.214Z
+FQ,16. Aller chez le dentiste.,2 - évite un peu,2,2.386,2025-02-24T21:21:51.214Z,2025-02-24T21:21:53.600Z
+FQ,17. Toute autre situation qui vous fait peur et que vous évitez (décrivez-la puis cotez-la de 0 à 8).,0 - n'évite pas,0,1.914,2025-02-24T21:21:53.600Z,2025-02-24T21:21:55.514Z
+FQ,18. Sentiment d’être malheureux ou déprimé.,2 - évite un peu,2,1.652,2025-02-24T21:21:55.514Z,2025-02-24T21:21:57.166Z
+FQ,19. Sentiment d’être irritable ou en colère.,1,1,2.034,2025-02-24T21:21:57.166Z,2025-02-24T21:21:59.200Z
+FQ,20. Se sentir tendu ou paniqué,0 - n'évite pas,0,1.446,2025-02-24T21:21:59.200Z,2025-02-24T21:22:00.647Z
+FQ,21. Avoir l’esprit tendu ou paniqué.,0 - n'évite pas,0,2.268,2025-02-24T21:22:00.647Z,2025-02-24T21:22:02.915Z
+FQ,22. Sentir que vous ou votre environnement (choses personnes) sont irréels ou étrangers.,2 - évite un peu,2,2.2,2025-02-24T21:22:02.915Z,2025-02-24T21:22:05.115Z
+FQ,23. Autres sentiments pénibles (décrivez-les) :,4 - évite souvent,4,1.864,2025-02-24T21:22:05.115Z,2025-02-24T21:22:06.980Z
+FQ,24. À combien évaluez-vous actuellement la gêne que représente dans votre vie votre comportement phobique? Veuillez entourer un chiffre dans l’échelle ci-dessous et le reporter dans cette case:,0 - n'évite pas,0,1.667,2025-02-24T21:22:06.980Z,2025-02-24T21:22:08.647Z
