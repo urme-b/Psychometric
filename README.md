@@ -26,13 +26,42 @@ Hospital Anxiety and Depression Scale (HADS)
 2. Anxiety Subscale: Items 1, 3, 5, 7, 9, 11, 13
 3. Depression Subscale: Items 2, 4, 6, 8, 10, 12, 14
 4. Scoring: Each item ranges 0–3. Sum each subscale (range 0–21). Common cutoffs:
-   0–7: Normal
-   8–10: Borderline
+   0–7: Normal,
+   8–10: Borderline,
    11–21: Abnormal
 
 
+State-Trait Anxiety Inventory (STAI)
+
+STAI-S (State Anxiety): 20 items (often labeled 1–20)
+1.	Reverse-score specific positively worded items (for example, those like “I feel calm”) using 5 − x.
+2.	Sum all 20 item scores (range 20–80).
+
+STAI-T (Trait Anxiety): 20 items (often labeled 21–40)
+1.	Reverse-score the designated items using 5 − x.
+2.	Sum for a total of 20–80.
 
 
+Big Five Inventory (BFI), 10-item Version
+
+1.	Items: 10 (numbered 1–10)
+2.	Traits: Extraversion, Agreeableness, Conscientiousness, Neuroticism, Openness
+3.	Scoring: Each trait has 2 items; one is reverse keyed (6 − x). Sum or average each pair: Sum: 2–10 per trait, Average: 1–5 per trait
+
+
+Fear Questionnaire (FQ)
+
+Items: 24 (numbered 1–24), each 0–8
+
+Scoring:
+1.	Main Phobia Avoidance: Item 1 (range 0–8).
+2.	Total Phobia Score: Sum Items 2–16 (range 0–120).
+3.	Subscales (each 5 items, each range 0–40):
+a.	Agoraphobia: Items 5, 6, 8, 12, 15
+b.	Blood/Injury: Items 2, 4, 10, 13, 16
+c.	Social: Items 3, 7, 9, 11, 14
+4.	Global Phobia Rating: Item 18 (range 0–8).
+5.	Associated Anxiety/Depression: Sum Items 19–24 (range 0–40).
 
 
 Data Capture & Storage:
