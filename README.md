@@ -22,13 +22,13 @@ Architecture:
 Scoring Calculations:
 
 Hospital Anxiety and Depression Scale (HADS)
-    1. Items: 14 (numbered 1–14)
-    2. Anxiety Subscale: Items 1, 3, 5, 7, 9, 11, 13
-    3. Depression Subscale: Items 2, 4, 6, 8, 10, 12, 14
-    4. Scoring: Each item ranges 0–3. Sum each subscale (range 0–21). Common cutoffs:
-        0–7: Normal
-        8–10: Borderline
-        11–21: Abnormal
+1. Items: 14 (numbered 1–14)
+2. Anxiety Subscale: Items 1, 3, 5, 7, 9, 11, 13
+3. Depression Subscale: Items 2, 4, 6, 8, 10, 12, 14
+4. Scoring: Each item ranges 0–3. Sum each subscale (range 0–21). Common cutoffs:
+   0–7: Normal
+   8–10: Borderline
+   11–21: Abnormal
 
 
 
