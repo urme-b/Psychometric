@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "node scripts/run-tests.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

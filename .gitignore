@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+*.log
+venv/
+.venv/
+
+# Node
+node_modules/
+
+# Generated exports
+Psychometric_Test_Results.csv
+Psychometric Test Suite.pdf
