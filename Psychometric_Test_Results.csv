@@ -1,0 +1,115 @@
+﻿--- Session Information ---
+Participant ID,P007
+Date,2026-02-22
+Total Duration (min),8.47
+Tests Completed,HADS; STAI-S; STAI-T; BFI; FQ
+
+--- Summary Scores ---
+Scale,Subscale,Score,Interpretation
+HADS,Anxiety,13,Abnormal
+HADS,Depression,13,Abnormal
+STAI-S,Total,53,High anxiety
+STAI-T,Total,49,High anxiety
+BFI,Openness,1.50,Low
+BFI,Conscientiousness,3,Average
+BFI,Extraversion,1.50,Low
+BFI,Agreeableness,2,Low
+BFI,Neuroticism,4.50,High
+FQ,MainPhobia,4,Moderate
+FQ,TotalPhobia,70,High
+FQ,Agoraphobia,14,Moderate
+FQ,BloodInjuryPhobia,32,High
+FQ,SocialPhobia,24,High
+FQ,GlobalPhobiaRating,6,Severe
+FQ,AnxietyDepression,24,High
+
+--- Individual Responses ---
+Test,Question,Answer,Score,Time(s),Question Start Time,Answer Time
+HADS,1. I feel tense or 'wound up':,A lot of the time,2,3.18,2026-02-22T19:08:30.623Z,2026-02-22T19:08:33.807Z
+HADS,2. I still enjoy the things I used to enjoy:,Only a little,2,5.37,2026-02-22T19:08:33.807Z,2026-02-22T19:08:39.172Z
+HADS,3. I get a sort of frightened feeling as if something awful is about to happen:,"Yes, but not too badly",2,6.90,2026-02-22T19:08:39.172Z,2026-02-22T19:08:46.072Z
+HADS,4. I can laugh and see the funny side of things:,Definitely not so much now,2,4.00,2026-02-22T19:08:46.072Z,2026-02-22T19:08:50.072Z
+HADS,5. Worrying thoughts go through my mind:,A lot of the time,2,9.00,2026-02-22T19:08:50.072Z,2026-02-22T19:08:59.072Z
+HADS,6. I feel cheerful:,Sometimes,1,5.43,2026-02-22T19:08:59.072Z,2026-02-22T19:09:04.505Z
+HADS,7. I can sit at ease and feel relaxed:,Usually,1,29.65,2026-02-22T19:09:04.505Z,2026-02-22T19:09:34.154Z
+HADS,8. I feel as if I am slowed down:,Very often,2,7.83,2026-02-22T19:09:34.154Z,2026-02-22T19:09:41.989Z
+HADS,9. I get a sort of frightened feeling like 'butterflies' in the stomach:,Quite Often,2,4.17,2026-02-22T19:09:41.989Z,2026-02-22T19:09:46.156Z
+HADS,10. I have lost interest in my appearance:,I don't take as much care as I should,2,3.78,2026-02-22T19:09:46.156Z,2026-02-22T19:09:49.939Z
+HADS,11. I feel restless as I have to be on the move:,Quite a lot,2,7.08,2026-02-22T19:09:49.939Z,2026-02-22T19:09:57.022Z
+HADS,12. I look forward with enjoyment to things:,Hardly at all,3,11.08,2026-02-22T19:09:57.022Z,2026-02-22T19:10:08.106Z
+HADS,13. I get sudden feelings of panic:,Quite often,2,4.45,2026-02-22T19:10:08.106Z,2026-02-22T19:10:12.556Z
+HADS,14. I can enjoy a good book or radio or TV program:,Sometimes,1,6.32,2026-02-22T19:10:12.556Z,2026-02-22T19:10:18.872Z
+STAI-S,1. I feel calm.,Somewhat,3,5.87,2026-02-22T19:10:18.872Z,2026-02-22T19:10:24.739Z
+STAI-S,2. I feel secure.,Not at all,4,6.58,2026-02-22T19:10:24.739Z,2026-02-22T19:10:31.323Z
+STAI-S,3. I am tense.,Somewhat,2,8.83,2026-02-22T19:10:31.323Z,2026-02-22T19:10:40.155Z
+STAI-S,4. I feel regretful.,Moderately,3,5.10,2026-02-22T19:10:40.155Z,2026-02-22T19:10:45.255Z
+STAI-S,5. I feel at ease.,Moderately,2,13.22,2026-02-22T19:10:45.255Z,2026-02-22T19:10:58.471Z
+STAI-S,6. I feel upset.,Somewhat,2,2.93,2026-02-22T19:10:58.471Z,2026-02-22T19:11:01.405Z
+STAI-S,7. I am currently worried about possible misfortunes.,Moderately,3,4.17,2026-02-22T19:11:01.405Z,2026-02-22T19:11:05.573Z
+STAI-S,8. I feel rested.,Somewhat,3,7.62,2026-02-22T19:11:05.573Z,2026-02-22T19:11:13.189Z
+STAI-S,9. I feel anxious.,Somewhat,2,5.43,2026-02-22T19:11:13.189Z,2026-02-22T19:11:18.622Z
+STAI-S,10. I feel comfortable.,Very much,1,2.18,2026-02-22T19:11:18.622Z,2026-02-22T19:11:20.805Z
+STAI-S,11. I feel self-confident.,Somewhat,3,4.62,2026-02-22T19:11:20.805Z,2026-02-22T19:11:25.422Z
+STAI-S,12. I feel nervous.,Moderately,3,2.83,2026-02-22T19:11:25.422Z,2026-02-22T19:11:28.255Z
+STAI-S,13. I am jittery.,Very much,4,2.62,2026-02-22T19:11:28.255Z,2026-02-22T19:11:30.872Z
+STAI-S,14. I feel high-strung.,Somewhat,2,2.82,2026-02-22T19:11:30.872Z,2026-02-22T19:11:33.689Z
+STAI-S,15. I am relaxed.,Moderately,2,3.40,2026-02-22T19:11:33.689Z,2026-02-22T19:11:37.089Z
+STAI-S,16. I feel content.,Not at all,4,2.52,2026-02-22T19:11:37.089Z,2026-02-22T19:11:39.605Z
+STAI-S,17. I am worried.,Very much,4,2.42,2026-02-22T19:11:39.605Z,2026-02-22T19:11:42.022Z
+STAI-S,18. I feel overexcited and rattled.,Somewhat,2,3.70,2026-02-22T19:11:42.022Z,2026-02-22T19:11:45.722Z
+STAI-S,19. I feel joyful.,Moderately,2,3.13,2026-02-22T19:11:45.722Z,2026-02-22T19:11:48.855Z
+STAI-S,20. I feel fine.,Moderately,2,2.30,2026-02-22T19:11:48.855Z,2026-02-22T19:11:51.155Z
+STAI-T,1. I feel fine.,Often,2,2.33,2026-02-22T19:11:51.155Z,2026-02-22T19:11:53.489Z
+STAI-T,2. I tire quickly.,Sometimes,2,2.77,2026-02-22T19:11:53.489Z,2026-02-22T19:11:56.255Z
+STAI-T,3. I feel like crying.,Often,3,2.15,2026-02-22T19:11:56.255Z,2026-02-22T19:11:58.406Z
+STAI-T,4. I wish I could be as happy as others seem to be.,Almost Always,4,4.48,2026-02-22T19:11:58.406Z,2026-02-22T19:12:02.888Z
+STAI-T,5. I am losing opportunities because I cannot make decisions fast.,Sometimes,2,2.28,2026-02-22T19:12:02.888Z,2026-02-22T19:12:05.172Z
+STAI-T,6. I feel rested.,Sometimes,3,4.15,2026-02-22T19:12:05.172Z,2026-02-22T19:12:09.322Z
+STAI-T,7. I am calm.,Sometimes,3,6.25,2026-02-22T19:12:09.322Z,2026-02-22T19:12:15.572Z
+STAI-T,8. I feel that difficulties are piling up in such a way that I cannot overcome them.,Sometimes,2,4.30,2026-02-22T19:12:15.572Z,2026-02-22T19:12:19.872Z
+STAI-T,9. I worry too much about things that do not really matter.,Often,3,4.05,2026-02-22T19:12:19.872Z,2026-02-22T19:12:23.922Z
+STAI-T,10. I am happy.,Sometimes,3,4.22,2026-02-22T19:12:23.922Z,2026-02-22T19:12:28.139Z
+STAI-T,11. I am inclined to take things hard.,Almost Never,1,3.42,2026-02-22T19:12:28.139Z,2026-02-22T19:12:31.556Z
+STAI-T,12. I lack self-confidence.,Sometimes,2,5.08,2026-02-22T19:12:31.556Z,2026-02-22T19:12:36.639Z
+STAI-T,13. I feel secure.,Often,2,3.03,2026-02-22T19:12:36.639Z,2026-02-22T19:12:39.672Z
+STAI-T,14. I try to avoid facing a crisis or difficulty.,Sometimes,2,4.20,2026-02-22T19:12:39.672Z,2026-02-22T19:12:43.872Z
+STAI-T,15. I feel blue.,Often,3,3.05,2026-02-22T19:12:43.872Z,2026-02-22T19:12:46.922Z
+STAI-T,16. I am content.,Almost Never,4,3.15,2026-02-22T19:12:46.922Z,2026-02-22T19:12:50.072Z
+STAI-T,17. Some unimportant thoughts run through my mind and bother me.,Sometimes,2,1.80,2026-02-22T19:12:50.072Z,2026-02-22T19:12:51.872Z
+STAI-T,18. I take disappointments so keenly that I cannot get them out of my mind.,Almost Never,1,3.83,2026-02-22T19:12:51.872Z,2026-02-22T19:12:55.706Z
+STAI-T,19. I am a steady person.,Sometimes,3,2.48,2026-02-22T19:12:55.706Z,2026-02-22T19:12:58.188Z
+STAI-T,20. I become tense and upset when I think about my current concerns.,Sometimes,2,3.68,2026-02-22T19:12:58.188Z,2026-02-22T19:13:01.871Z
+BFI,1. I see myself as someone who is reserved,Agree,2,5.95,2026-02-22T19:13:01.871Z,2026-02-22T19:13:07.822Z
+BFI,2. I see myself as someone who is generally trusting,Disagree,2,5.23,2026-02-22T19:13:07.822Z,2026-02-22T19:13:13.055Z
+BFI,3. I see myself as someone who does a thorough job,Agree,4,6.30,2026-02-22T19:13:13.055Z,2026-02-22T19:13:19.355Z
+BFI,"4. I see myself as someone who is relaxed, handles stress well",Disagree,4,3.00,2026-02-22T19:13:19.355Z,2026-02-22T19:13:22.355Z
+BFI,5. I see myself as someone who has an active imagination,Disagree,2,3.40,2026-02-22T19:13:22.355Z,2026-02-22T19:13:25.755Z
+BFI,"6. I see myself as someone who is outgoing, sociable",Strongly disagree,1,5.37,2026-02-22T19:13:25.755Z,2026-02-22T19:13:31.122Z
+BFI,7. I see myself as someone who tends to find fault with others,Agree,2,7.12,2026-02-22T19:13:31.122Z,2026-02-22T19:13:38.238Z
+BFI,8. I see myself as someone who tends to be lazy,Agree,2,11.55,2026-02-22T19:13:38.238Z,2026-02-22T19:13:49.788Z
+BFI,9. I see myself as someone who gets nervous easily,Strongly agree,5,3.42,2026-02-22T19:13:49.788Z,2026-02-22T19:13:53.205Z
+BFI,10. I see myself as someone who has few artistic interests,Strongly agree,1,9.35,2026-02-22T19:13:53.205Z,2026-02-22T19:14:02.555Z
+FQ,1. Main phobia you want treated (agoraphobia),4 - definitely avoid it,4,8.33,2026-02-22T19:14:02.555Z,2026-02-22T19:14:10.888Z
+FQ,2. Injections or minor surgery,6 - markedly avoid it,6,4.28,2026-02-22T19:14:10.888Z,2026-02-22T19:14:15.172Z
+FQ,3. Eating or drinking with other people,4 - definitely avoid it,4,4.45,2026-02-22T19:14:15.172Z,2026-02-22T19:14:19.622Z
+FQ,4. Hospitals,6 - markedly avoid it,6,2.77,2026-02-22T19:14:19.622Z,2026-02-22T19:14:22.388Z
+FQ,5. Traveling alone or by bus,2 - slightly avoid it,2,3.33,2026-02-22T19:14:22.388Z,2026-02-22T19:14:25.722Z
+FQ,6. Walking alone in busy streets,0 - would not avoid it,0,3.55,2026-02-22T19:14:25.722Z,2026-02-22T19:14:29.272Z
+FQ,7. Being watched or stared at,8 - always avoid it,8,4.23,2026-02-22T19:14:29.272Z,2026-02-22T19:14:33.505Z
+FQ,8. Going into crowded shops,2 - slightly avoid it,2,7.83,2026-02-22T19:14:33.505Z,2026-02-22T19:14:41.338Z
+FQ,9. Talking to people in authority,4 - definitely avoid it,4,31.78,2026-02-22T19:14:41.338Z,2026-02-22T19:15:13.120Z
+FQ,10. Sight of blood,8 - always avoid it,8,3.37,2026-02-22T19:15:13.120Z,2026-02-22T19:15:16.489Z
+FQ,11. Being criticized,6 - markedly avoid it,6,3.70,2026-02-22T19:15:16.489Z,2026-02-22T19:15:20.188Z
+FQ,12. Going alone far from home,4 - definitely avoid it,4,2.22,2026-02-22T19:15:20.188Z,2026-02-22T19:15:22.405Z
+FQ,13. Thought of injury or illness,6 - markedly avoid it,6,3.38,2026-02-22T19:15:22.405Z,2026-02-22T19:15:25.788Z
+FQ,14. Speaking or acting to an audience,2 - slightly avoid it,2,2.93,2026-02-22T19:15:25.788Z,2026-02-22T19:15:28.721Z
+FQ,15. Large open spaces,6 - markedly avoid it,6,3.32,2026-02-22T19:15:28.721Z,2026-02-22T19:15:32.038Z
+FQ,16. Going to the dentist,6 - markedly avoid it,6,25.97,2026-02-22T19:15:32.038Z,2026-02-22T19:15:58.004Z
+FQ,"17. Other situations (describe, then rate 0-8)",6 - markedly avoid it,6,3.53,2026-02-22T19:15:58.004Z,2026-02-22T19:16:01.538Z
+FQ,18. How would you rate the present state of your phobic symptoms on the scale below?,6 - markedly disturbing/disabling,6,4.92,2026-02-22T19:16:01.538Z,2026-02-22T19:16:06.455Z
+FQ,19. Feeling miserable or depressed,2 - slightly troublesome,2,4.57,2026-02-22T19:16:06.455Z,2026-02-22T19:16:11.021Z
+FQ,20. Feeling irritable or angry,6 - markedly troublesome,6,2.30,2026-02-22T19:16:11.021Z,2026-02-22T19:16:13.321Z
+FQ,21. Feeling tense or panicky,6 - markedly troublesome,6,29.02,2026-02-22T19:16:13.322Z,2026-02-22T19:16:42.337Z
+FQ,22. Upsetting thoughts coming into your head,6 - markedly troublesome,6,1.90,2026-02-22T19:16:42.337Z,2026-02-22T19:16:44.238Z
+FQ,23. Feeling you or your surroundings are strange or unreal,4 - definitely troublesome,4,2.90,2026-02-22T19:16:44.238Z,2026-02-22T19:16:47.138Z
+FQ,"24. Other feelings (describe, then rate 0-8)",2 - slightly troublesome,2,2.02,2026-02-22T19:16:47.138Z,2026-02-22T19:16:49.155Z
