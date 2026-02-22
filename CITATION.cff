@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Psychometric: Web-Based Psychometric Test Suite for Anxiety and Personality Assessment"
+authors:
+  - family-names: Bose
+    given-names: Urme
+repository-code: "https://github.com/urme-b/Psychometric"
+url: "https://github.com/urme-b/Psychometric"
+license: MIT
+date-released: "2024-01-01"
+keywords:
+  - psychometric-testing
+  - anxiety-assessment
+  - HADS
+  - STAI
+  - BFI-10
+  - fear-questionnaire
+  - web-application
+  - bilingual
+  - cyberpsychology
