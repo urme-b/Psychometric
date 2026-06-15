@@ -233,6 +233,21 @@
     assert(getInterp("FQ", "TotalPhobia", 60) === fqR[1][2], "FQ band: 60 -> band 2");
     assert(getInterp("FQ", "TotalPhobia", 61) === fqR[2][2], "FQ band: 61 -> band 3");
 
+    // ── Interpretation → CSS class (color coding) ─────────────────────
+    // "abnormal"/"anormal" contain "normal", so the check order matters.
+    // Lock it in both languages.
+    var ic = T.interpClass;
+    assert(ic("Abnormal") === "interp-abnormal", "interpClass: Abnormal not misread as normal");
+    assert(ic("Anormal") === "interp-abnormal", "interpClass: French Anormal -> abnormal");
+    assert(ic("High anxiety") === "interp-abnormal", "interpClass: High -> abnormal");
+    assert(ic("Severe") === "interp-abnormal", "interpClass: Severe -> abnormal");
+    assert(ic("Borderline") === "interp-moderate", "interpClass: Borderline -> moderate");
+    assert(ic("Moderate anxiety") === "interp-moderate", "interpClass: Moderate -> moderate");
+    assert(ic("Average") === "interp-moderate", "interpClass: Average -> moderate");
+    assert(ic("Normal") === "interp-normal", "interpClass: Normal -> normal");
+    assert(ic("Low anxiety") === "interp-normal", "interpClass: Low -> normal");
+    assert(ic("") === "", "interpClass: empty label -> no class");
+
     // Render
     renderResults();
   }
