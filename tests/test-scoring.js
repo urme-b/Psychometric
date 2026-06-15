@@ -157,6 +157,82 @@
     assert(csvEscape('say "hi"') === '"say ""hi"""', "csvEscape: quotes doubled and wrapped");
     assert(csvEscape("line1\nline2") === '"line1\nline2"', "csvEscape: newline wrapped in quotes");
 
+    // ── Per-item mapping tests ──────────────────────────────────────
+    // Uniform answers (all-0, all-3…) can't detect a mis-mapped item, since
+    // every subscale sums to the same value. These use DISTINCT per-item
+    // scores, so each subscale/trait must select exactly the right questions.
+
+    // HADS: score anxiety items 1, depression items 0 → Anxiety isolated.
+    var hadsAnx = C.scoring.HADS.subscales.Anxiety;
+    state.tests = C.tests.filter(function (t) { return t.name === "HADS"; });
+    var hadsScores = state.tests[0].questions.map(function (q, i) {
+      return hadsAnx.indexOf(i + 1) !== -1 ? 1 : 0;
+    });
+    state.answers = mockAnswersPerItem("HADS", hadsScores);
+    s = calcScores();
+    assert(s.HADS.Anxiety === hadsAnx.length, "HADS mapping: Anxiety isolates its own items");
+    assert(s.HADS.Depression === 0, "HADS mapping: Depression unaffected by Anxiety items");
+
+    // BFI: distinct per-item scores prove each trait maps to the right items.
+    state.tests = C.tests.filter(function (t) { return t.name === "BFI"; });
+    state.answers = mockAnswersPerItem("BFI", [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]);
+    s = calcScores();
+    assert(approxEqual(s.BFI.Extraversion, 1.0), "BFI mapping: Extraversion = items 1,6");
+    assert(approxEqual(s.BFI.Agreeableness, 2.0), "BFI mapping: Agreeableness = items 2,7");
+    assert(approxEqual(s.BFI.Conscientiousness, 3.0), "BFI mapping: Conscientiousness = items 3,8");
+    assert(approxEqual(s.BFI.Neuroticism, 4.0), "BFI mapping: Neuroticism = items 4,9");
+    assert(approxEqual(s.BFI.Openness, 5.0), "BFI mapping: Openness = items 5,10");
+
+    // FQ: score only Agoraphobia items → sibling subscales stay 0.
+    var fqAgora = C.scoring.FQ.subscales.Agoraphobia;
+    state.tests = C.tests.filter(function (t) { return t.name === "FQ"; });
+    var fqScores = state.tests[0].questions.map(function (q, i) {
+      return fqAgora.indexOf(i + 1) !== -1 ? 8 : 0;
+    });
+    state.answers = mockAnswersPerItem("FQ", fqScores);
+    s = calcScores();
+    assert(s.FQ.Agoraphobia === fqAgora.length * 8, "FQ mapping: Agoraphobia isolates its own items");
+    assert(s.FQ.SocialPhobia === 0, "FQ mapping: SocialPhobia unaffected");
+    assert(s.FQ.BloodInjuryPhobia === 0, "FQ mapping: BloodInjuryPhobia unaffected");
+    assert(s.FQ.TotalPhobia === fqAgora.length * 8, "FQ mapping: TotalPhobia includes Agoraphobia items");
+
+    // ── Reverse-scoring keying (English option order) ─────────────────
+    // Agreeing with a reverse-worded item must land on the LOW end of its
+    // construct. Option order is locale-specific, so guard to English.
+    if (C.lang === "en") {
+      var bfi = C.tests.filter(function (t) { return t.name === "BFI"; })[0].questions;
+      assert(bfi[0].scores[0] === 1, "BFI keying: 'reserved' + strongly agree -> low Extraversion");
+      assert(bfi[5].scores[0] === 5, "BFI keying: 'outgoing' + strongly agree -> high Extraversion");
+      assert(bfi[3].scores[0] === 1, "BFI keying: 'handles stress well' + strongly agree -> low Neuroticism");
+      assert(bfi[8].scores[0] === 5, "BFI keying: 'nervous easily' + strongly agree -> high Neuroticism");
+
+      var staiS = C.tests.filter(function (t) { return t.name === "STAI-S"; })[0].questions;
+      assert(staiS[0].scores[0] === 4, "STAI-S keying: 'I feel calm' reverse-scored (not at all -> 4)");
+      assert(staiS[2].scores[0] === 1, "STAI-S keying: 'I am tense' direct-scored (not at all -> 1)");
+    }
+
+    // ── Threshold band labels (read expected label from CONFIG) ────────
+    // Stronger than "differs from neighbour": assert each boundary score
+    // returns its OWN band's label. Reading the label from CONFIG keeps this
+    // language-agnostic.
+    var hadsR = C.thresholds.HADS.Anxiety.ranges;
+    assert(getInterp("HADS", "Anxiety", 7) === hadsR[0][2], "HADS band: 7 -> band 1");
+    assert(getInterp("HADS", "Anxiety", 8) === hadsR[1][2], "HADS band: 8 -> band 2");
+    assert(getInterp("HADS", "Anxiety", 10) === hadsR[1][2], "HADS band: 10 -> band 2");
+    assert(getInterp("HADS", "Anxiety", 11) === hadsR[2][2], "HADS band: 11 -> band 3");
+
+    var staiR = C.thresholds["STAI-S"].Total.ranges;
+    assert(getInterp("STAI-S", "Total", 37) === staiR[0][2], "STAI-S band: 37 -> band 1");
+    assert(getInterp("STAI-S", "Total", 38) === staiR[1][2], "STAI-S band: 38 -> band 2");
+    assert(getInterp("STAI-S", "Total", 44) === staiR[1][2], "STAI-S band: 44 -> band 2");
+    assert(getInterp("STAI-S", "Total", 45) === staiR[2][2], "STAI-S band: 45 -> band 3");
+
+    var fqR = C.thresholds.FQ.TotalPhobia.ranges;
+    assert(getInterp("FQ", "TotalPhobia", 30) === fqR[0][2], "FQ band: 30 -> band 1");
+    assert(getInterp("FQ", "TotalPhobia", 31) === fqR[1][2], "FQ band: 31 -> band 2");
+    assert(getInterp("FQ", "TotalPhobia", 60) === fqR[1][2], "FQ band: 60 -> band 2");
+    assert(getInterp("FQ", "TotalPhobia", 61) === fqR[2][2], "FQ band: 61 -> band 3");
+
     // Render
     renderResults();
   }
