@@ -34,6 +34,16 @@ A bilingual (English / French) web app for administering five standardized psych
 - **Privacy-first** -- zero data leaves the browser unless explicitly exported
 - **Unit tested** -- in-browser test suite verifies all scoring logic
 
+## Scoring
+
+Each instrument uses one of three scoring modes, defined in `lang/*.js`:
+
+- **Total** (STAI-S, STAI-T) -- sum of all 20 items; reverse-worded items are pre-keyed in their option scores.
+- **Subscale** (HADS, FQ) -- items summed into named subscales (e.g. HADS Anxiety vs Depression).
+- **Trait average** (BFI-10) -- items summed per Big-Five trait, then divided by the trait's item count.
+
+Computed scores are mapped to clinical bands (e.g. HADS Normal / Borderline / Abnormal) through per-subscale thresholds and colour-coded in the results table. Item mapping, reverse-scoring direction, and band boundaries are all unit-tested.
+
 ## Screenshots
 
 | Participant Setup | Test In Progress |
@@ -65,7 +75,16 @@ Or open `index.html` for a language selector that redirects automatically.
 
 ## Running Tests
 
-Open `tests/test-scoring.html` (English) or `tests/test-scoring-fr.html` (French) in a browser. All assertions run automatically on page load.
+**In a browser:** open `tests/test-scoring.html` (English) or `tests/test-scoring-fr.html` (French) -- all assertions run automatically on page load.
+
+**Headless:** the same suites run under Puppeteer.
+
+```bash
+npm ci
+npm test
+```
+
+Every push and pull request runs `npm test` against both languages via GitHub Actions.
 
 ## Data Privacy
 
