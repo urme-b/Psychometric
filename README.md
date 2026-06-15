@@ -4,6 +4,14 @@
   <a href="https://urme-b.github.io/Psychometric/"><strong>Try the Live Demo</strong></a>
 </div>
 
+<div align="center">
+
+[![Tests](https://github.com/urme-b/Psychometric/actions/workflows/test.yml/badge.svg)](https://github.com/urme-b/Psychometric/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://urme-b.github.io/Psychometric/)
+
+</div>
+
 A bilingual (English / French) web app for administering five standardized psychometric instruments with automated scoring, clinical interpretation, and CSV/PDF export. Fully offline, fully private.
 
 ## Instruments
