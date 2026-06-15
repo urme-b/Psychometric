@@ -781,6 +781,7 @@
   if (window.__TEST__) {
     window.__TEST__.calculateSummaryScores = calculateSummaryScores;
     window.__TEST__.getInterpretation = getInterpretation;
+    window.__TEST__.interpClass = interpClass;
     window.__TEST__.csvEscape = csvEscape;
     window.__TEST__.state = state;
   }
